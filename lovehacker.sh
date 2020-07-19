@@ -45,5 +45,5 @@ sleep 1
 echo
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Now Restart Termux App\e[0m
 "
-printf "\e[0m
+printf " \e[35m
 "
