@@ -24,7 +24,8 @@ cp 1 .bashrc
 echo "echo -e '\e[0m\e[1;96m'" >> .bashrc
 echo "  figlet $option" >> .bashrc
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m ☆☆☆☆☆\e[0m"
-printf "echo -e '\e[0m\e[1;32m'date
+printf "echo -e '\e[0m\e[1;32m'
+date
 echo -e '\e[0m'
 " >> .bashrc
 mv .bashrc ~
