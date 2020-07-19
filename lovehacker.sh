@@ -23,27 +23,23 @@ sleep 2
 apt update
 apt install figlet -y
 cp 1 .bashrc
-echo "echo -e '\e[0m\e[1;93m'" >> .bashrc
+echo "echo -e '\e[0m\e[1;96m'" >> .bashrc
 echo "  figlet $option" >> .bashrc
 echo " lovehacker"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m ☆☆☆☆☆\e[0m
-"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m ☆☆☆☆☆\e[0m"
 printf "echo -e '\e[0m\e[1;32m'
 date
 echo -e '\e[0m'
 " >> .bashrc
 mv .bashrc ~
 echo
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Plzzz wi8...\e[0m
-"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Plzzz wi8...\e[0m"
 sleep 2
 echo
 echo
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Done !!\e[0m
-"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Done !!\e[0m"
 sleep 1
 echo
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Now Restart Termux App\e[0m
-"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Now Restart Termux App\e[0m"
 printf " \e[35m
 "
