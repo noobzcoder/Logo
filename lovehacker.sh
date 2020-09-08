@@ -11,8 +11,7 @@ printf """\e[0m\e[1;95m
 ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇  ▇▇┈┈┈┈┈┈┈┈┈┈┈┈┈┈▇▇
 ▇▇ WhatsApp Num ▇▇  ▇▇  03094161457 ▇▇
 «--------------BlackMafia------------»
- \e[0m\e[1;93mCreated By lovehacker\e[0m\e[1;96m( \e[0m\e[1;95mBlackMafia \e[0m\e[1;96m)"""
-printf ""
+ \e[0m\e[1;93mCreated By \e[0m\e[1;96m( \e[0m\e[1;95mBlackMafia \e[0m\e[1;96m)"""
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Input Your Name : \e[0m\e[1;96m\en' option
 printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Initializing ...\e[0m"
 sleep 2
